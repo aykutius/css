@@ -1,0 +1,125 @@
+* {
+    margin-left: 5px;
+
+}
+body {
+    background-color:rgb(199, 196, 188,);
+    color:#361500;
+    font-size:larger;
+    font-weight:500;
+    font-style: italic;
+    background-image: url(https://seeklogo.com/images/K/kahve-kutusu-logo-D29247F6A2-seeklogo.com.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-attachment: fixed;
+    background-size: 150px;
+  
+   
+}
+
+/******************link**************/
+
+a:link, a:visited, a:hover{
+    color:#361500;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+/***********************************/
+.logo {
+    margin: auto;
+    text-align:left;
+    margin-bottom: -200px;
+    margin-left: 200px;
+    
+    
+}
+
+
+nav {
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    font-family:monospace;
+    color:rgb(199, 196, 188) ;
+    background-color: #361500;
+    margin-top: 87px;
+    font-style: italic;
+    font-weight:normal;
+    padding:14px;
+    border-style: double;
+    border-radius: 100px;
+   
+    
+    
+   
+    
+    
+}
+
+nav a{
+    border-style: double;
+    border-radius: 5px;
+    background-color:#D1BA80 ;
+    padding: 30px;
+    
+
+}
+
+
+section {
+    margin-left: 440px;
+    margin-right: 300px;
+    margin-top: 20px;
+    
+}
+
+.box{
+    background-color:#D1BA80;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+    border-style: double;
+    border-radius: 5px;
+    border-width: 10px;
+    padding: 10px;
+    overflow: auto;
+
+}
+.logo2{
+   margin-top: -35px;
+}
+
+h1{
+    font-size: 14px;
+    color: #D1BA80;
+
+}
+
+footer {
+    background-color: #361500;
+    margin-left: 400px;
+    margin-right: 300px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 14px;
+    color: #AD8B73;
+    border-style: double;
+    border-radius: 100px;
+    
+}
+
+footer span{
+    border-style:double;
+    border-radius: 30px;
+    background-color: #D1BA80;
+    color: #361500;
+}
