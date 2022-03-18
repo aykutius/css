@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+html {
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+h1 {
+    letter-spacing: 0.3rem;
+    
+}
+/* navbar */
+#navbar {
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+    z-index: 4;
+   
+    
+    
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+#navbar ul li a {
+    padding:0.5rem;
+}
+#navbar ul li a:hover {
+    /* background:#383838; */
+    /* border-radius: 4px; */
+    border-bottom: solid white 1px;
+    
+}
+
+
+
+/* home-section */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+    z-index: 3;
+    
+}
+
+#home img {
+    max-width: 100%;
+    height: 20rem;
+    margin-bottom: 1.3rem;
+    border-radius: 100%;
+    box-shadow: 2px 4px 51px 16px rgba(0,0,0,0.93);
+-webkit-box-shadow: 2px 4px 51px 16px rgba(0,0,0,0.93);
+-moz-box-shadow: 2px 4px 51px 16px rgba(0,0,0,0.93);
+}
+
+#home .name h2 {
+    margin-bottom: 0.5rem;
+}
+
+#home .name p {
+    opacity: 0.6;
+    font-style: italic;
+}
+
+
+#training {
+    color: white;
+    padding: 1rem;
+    /* -webkit-box-shadow: 0px 10px 13px -7px #000000, 29px 30px 47px 31px rgba(0,0,0,0); box-shadow: 0px 10px 13px -7px #000000, 29px 30px 47px 31px rgba(0,0,0,0); */
+    z-index: 4;
+
+    box-shadow: 0px 1px 51px 44px rgba(0,0,0,0.95);
+    -webkit-box-shadow: 0px 1px 51px 44px rgba(0,0,0,0.95);
+    -moz-box-shadow: 0px 1px 51px 44px rgba(0,0,0,0.95);
+    
+
+}
+
+#training .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#training .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#training .items .item:hover{
+    color: white;
+    opacity: 0.7;
+}
+
+/* about */
+
+#about {
+    color: #111;
+    padding: 1rem;
+    padding-bottom: 5rem;
+    z-index: 2;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.about .abo {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.about .abo .abo-image {
+    margin-right: 0.5rem;
+    
+
+}
+
+.about .abo .abo-image img {
+    border-radius: 5px;
+
+}
+
+
+
+.about .abo .abo-info .title {
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+
+}
+
+.about .abo .abo-info .description {
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+    opacity: 0.9;
+
+}
+
+.about .abo .abo-info .instructor {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.9;
+
+}
+
+.about .abo .abo-info .rating{
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.9;
+
+}
+
+
+/* contact */
+
+#contact {
+    color:white;
+    padding: 1rem;
+    box-shadow: 0px -20px 118px 30px rgba(0,0,0,0.95);
+-webkit-box-shadow: 0px -20px 118px 30px rgba(0,0,0,0.95);
+-moz-box-shadow: 0px -20px 118px 30px rgba(0,0,0,0.95);
+
+}
+
+
+
+#contact .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+#contact .contact-form ul li a {
+    padding: 1rem;
+    font-size: 2rem;
+
+}
+#contact .contact-form ul li i {
+    
+    font-size: 2rem;
+
+}
+
+#contact .contact-form ul li a:hover {
+    opacity: 0.5;
+
+}
