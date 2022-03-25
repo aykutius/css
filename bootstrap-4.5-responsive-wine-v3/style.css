@@ -1,0 +1,49 @@
+* {
+    font-family: 'Hurricane', cursive;
+    font-size: 1.3rem;
+   
+    
+  }
+
+  nav ul li a:hover {
+    color: darkred !important;
+   
+  }
+
+  footer {
+    background-image: url('./img/foo.png');
+    background-repeat: no-repeat;
+    background-size: 21rem;
+    
+  }
+
+  #footerdiv-aykutius {
+    border-top:solid 0.1rem darkred;
+    border-bottom:solid 0.1rem darkred;
+
+  }
+
+ 
+  footer ul li a:hover {
+    color: darkred !important;
+  }
+
+  h5,h4,h2 {
+    color: darkred;
+  }
+  
+  .btn-brown {
+    background-color: #2D170D;
+    color: white;
+  }
+
+  .btn-darkred {
+    background-color: darkred;
+    color: white;
+  }
+  
+  .btn-darkred:hover {
+    background-color: darkred;
+    color: white;
+  }
+ 
