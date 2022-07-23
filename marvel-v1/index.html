@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="frontend,python,js">
+    <meta name="outhor" content="Aykut Dalkılıç">
+    <meta name="description" content="Free">
+    <title>MARVEL</title>
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="./sytle.css">
+    <!-- bootstrap5.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- favicon -->
+    <link rel="icon" href="https://www.marvel.com/static/images/favicon/favicon.ico" type="image/x-icon"
+        sizes="16x16 32x32" class="next-head">
+</head>
+
+<body>
+    <nav class="navbar  fixed-top opacity-75 bgcolor1 shadow-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">...<img
+                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.w2MsmAxD7AmVsMNE4BHJHQHaDi%26pid%3DApi&f=1"
+                    class="position-absolute top-100 start-50 translate-middle" alt="" width="100"> </a>
+            <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="bgcolor1 offcanvas-header ">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body bgcolor1">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <div id="1" class="container">
+        <div class="row">
+            <div class="col-lg">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active">
+                            <img src="https://assets.vogue.in/photos/5ce412593bf9b4495fb1a8be/master/pass/Everything-you-need-to-know-before-watching-Marvel-movies-this-year.jpg"
+                                class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.vogue.in/photos/5ce412593bf9b4495fb1a8be/master/pass/Everything-you-need-to-know-before-watching-Marvel-movies-this-year.jpg"
+                                class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.vogue.in/photos/5ce412593bf9b4495fb1a8be/master/pass/Everything-you-need-to-know-before-watching-Marvel-movies-this-year.jpg"
+                                class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <section class="">
+        <div class="container bg-dark">
+            <div class="row">
+                <div class="col-lg  text-center  shadow-lg p-5">
+                    <img class="w-100 h-100"
+                        src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Marvel_Cinematic_Universe.png" alt="">
+                </div>
+                <div class="col-lg text-dark bor shadow-lg bg-light border-start bordor-dark p-5">
+                    <h2 class="border-bottom">About Us</h2>
+
+                    <h4>Marvel Entertainment, LLC</h4>
+                    <p>Marvel Entertainment, LLC, a wholly-owned subsidiary of The Walt Disney Company, is one of the
+                        world's most prominent character-based entertainment companies, built on a proven library of
+                        more than 8,000 characters featured in a variety of media over seventy-five years. Marvel
+                        utilizes its character franchises in entertainment, licensing and publishing.</p>
+                    <p>Marvel Entertainment, LLC, a wholly-owned subsidiary of The Walt Disney Company, is one of the
+                        world's most prominent character-based entertainment companies, built on a proven library of
+                        more than 8,000 characters featured in a variety of media over seventy-five years. Marvel
+                        utilizes its character franchises in entertainment, licensing and publishing.</p>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg text-center py-5 bg-light shadow-lg">
+
+                    <img src="https://www.pngplay.com/wp-content/uploads/6/Black-Avengers-Logo-Vector-Transparent-PNG.png"
+                        alt="" width="150">
+                    <p>Avengers Team</p>
+
+                </div>
+                <div class="col-lg text-center py-5 bg-light shadow-lg">
+
+                    <img src="https://seeklogo.com/images/S/s-h-i-e-l-d-logo-F89847BD30-seeklogo.com.png" alt=""
+                        width="100">
+                    <p>Sheild Team</p>
+
+                </div>
+
+                <div class="col-lg text-center py-5 bg-light shadow-lg">
+
+                    <img src="https://seeklogo.com/images/H/hydra-marvel-agents-of-shield-logo-6AAAF39964-seeklogo.com.png"
+                        alt="" width="100">
+                    <p>Hydra Team</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <div class="">
+        <div class="container p-10 ">
+            <div class="row ">
+
+                <div class="col-lg-4 shadow-lg p-5 bg-warning ">
+                    <div class="row ">
+                        <div class="col card  ">
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.w2MsmAxD7AmVsMNE4BHJHQHaDi%26pid%3DApi&f=1"
+                                class="card-img-top mt-3" alt="...">
+                            <div class="card-body bg-light mb-3">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional
+                                    content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-4 shadow-lg p-5 bg-dark">
+                    <div class="row ">
+                        <div class="col-lg card ">
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.w2MsmAxD7AmVsMNE4BHJHQHaDi%26pid%3DApi&f=1"
+                                class="card-img-top mt-3" alt="...">
+                            <div class="card-body bg-light mb-3">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional
+                                    content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-4 shadow-lg p-5 bg-light">
+                    <div class="row ">
+                        <div class="col card ">
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.w2MsmAxD7AmVsMNE4BHJHQHaDi%26pid%3DApi&f=1"
+                                class="card-img-top mt-3" alt="...">
+                            <div class="card-body bg-light mb-3">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional
+                                    content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <section class="">
+        <div class="container bg-light ">
+            <div class="row ">
+                <div class="col-lg border-end text-center py-5 border-dark shadow-lg">
+                    <i class="fa-solid fa-video fs-1"></i>
+                    <p class="display-5">232</p>
+                    <p class="fs-6 ">Movie Taken</p>
+                </div>
+                <div class="col-lg border-end text-center py-5 border-dark shadow-lg">
+                    <i class="fa-regular fa-comment-dots fs-1"></i>
+                    <p class="display-5">1051</p>
+                    <p class="fs-6 ">Marvel Comics</p>
+                </div>
+                <div class="col-lg border-end text-center py-5 border-dark shadow-lg">
+                    <i class="fa-solid fa-m fs-1"></i>
+                    <p class="display-5">189665</p>
+                    <p class="fs-6 ">Marvel Figure</p>
+                </div>
+                <div class="col-lg border-end text-center py-5 border-dark shadow-lg">
+                    <i class="fa-solid fa-hand-holding-dollar fs-1"></i>
+                    <p class="display-5">22.5 billion</p>
+                    <p class="fs-6 ">Marvel Revenues</p>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="bg-dark">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-lg-2 text-center shadow-lg py-3">
+                    <img class="w-auto" src="https://www.marvel.com/static/images/favicon/apple-touch-icon-120.png"
+                        alt="">
+                </div>
+                <div class="col-lg-2 text-center text-dark bor shadow-lg   py-3">
+                    <ul>
+                        <li>
+                            <a href="#">About Marvel</a>
+                        </li>
+                        <li>
+                            <a href="#">Help/FAQs</a>
+                        </li>
+                        <li>
+                            <a href="#">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#">Internships</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 text-center text-dark bor shadow-lg   py-3">
+                    <ul>
+                        <li>
+                            <a href="#">ADVERTISING</a>
+                        </li>
+                        <li>
+                            <a href="#">DISNEY+</a>
+                        </li>
+                        <li>
+                            <a href="#">MARVELHQ.COM</a>
+                        </li>
+                        <li>
+                            <a href="#">REDEEM DIGITAL COMICS</a>
+                        </li>
+                    </ul>
+                </div>
+                >
+                <div class="col-lg-1 shadow-lg text-center mt-3 py-3 ">
+                    <div class="col-lg-6">
+                        <img src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/marvel_insider-topnav-logo-large2x.png"
+                            alt="" width="100">
+                    </div>
+                    <div class="col-lg-6 mt-3">
+                        <img src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/mu-logo-w-nav-2x-2021-02.png"
+                            alt="" width="100">
+                    </div>
+                </div>
+                <div class="col-lg-3 text-center text-dark  shadow-lg   mt-3 py-3">
+                    <ul>
+                        <li>
+                            <a href="#">MARVEL INSIDER
+                                Get Rewarded for Being a Marvel Fan</a>
+                        </li>
+                        <li class="mt-3">
+                            <a href="#">MARVEL UNLIMITED
+                                Access Over 30,000+ Digital Comics</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-1 text-center text-dark  mt-5 ms-1 bordor-dark">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-snapchat"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg text-start text-dark   text-center  ">
+                    <a href="#1"><img src="./pic/logo.png" alt="Jump to top of page" width="70">
+
+                    </a>
+
+
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="bg-dark ">
+        <div class="container ">
+            <div class="row">
+
+                <div class="col-lg text-center text-dark   ">
+                    <ul>
+                        <li>
+                            <a href="#">Terms of Use</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-lg text-center text-dark   ">
+                    <ul>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-lg text-center text-dark     ">
+                    <ul>
+                        <li>
+                            <a href="#">Your California Privacy Rights</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-lg text-center text-dark     ">
+                    <ul>
+                        <li>
+                            <a href="#">Do Not Sell My Personal Information</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-lg text-center text-dark     ">
+                    <ul>
+                        <li>
+                            <a href="#">Children's Online Privacy Policy</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html

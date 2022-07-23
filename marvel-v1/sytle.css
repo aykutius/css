@@ -1,0 +1,37 @@
+body {
+    background-image: url("./pic/bg1.jpg");
+    
+    
+}
+
+
+
+.marvelbg1 {
+    background-image: url(https://www.marvel.com/static/images/favicon/apple-touch-icon-120.png);
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+
+
+
+.bgcolor1 {
+    background-color: #2f2f2f;
+    
+}
+
+/* about */
+
+.section1-1 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/1a/Marvel_Cinematic_Universe.png); 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+/* links */
+
+a:hover, a:link, a:visited, a:active { 
+    text-decoration: none; 
+    color: white !important;
+}
+
